@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-01-05T09:44:27 ICT" name="Default suite" finished-at="2022-01-05T09:44:35 ICT" duration-ms="7418">
+    <groups>
+    </groups>
+    <test started-at="2022-01-05T09:44:27 ICT" name="Default test" finished-at="2022-01-05T09:44:35 ICT" duration-ms="7418">
+      <class name="selenium.wbdriver1.App">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:selenium.wbdriver1.App@4f2b503c]" started-at="2022-01-05T09:44:27 ICT" name="beforeClass" finished-at="2022-01-05T09:44:34 ICT" duration-ms="6472" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="TC_01_ValidateCurrentUrl()[pri:0, instance:selenium.wbdriver1.App@4f2b503c]" started-at="2022-01-05T09:44:34 ICT" name="TC_01_ValidateCurrentUrl" finished-at="2022-01-05T09:44:34 ICT" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_01_ValidateCurrentUrl -->
+        <test-method signature="TC_02_ValidatePageTitle()[pri:0, instance:selenium.wbdriver1.App@4f2b503c]" started-at="2022-01-05T09:44:34 ICT" name="TC_02_ValidatePageTitle" finished-at="2022-01-05T09:44:34 ICT" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_02_ValidatePageTitle -->
+        <test-method signature="TC_03_LoginFormDisplayed()[pri:0, instance:selenium.wbdriver1.App@4f2b503c]" started-at="2022-01-05T09:44:34 ICT" name="TC_03_LoginFormDisplayed" finished-at="2022-01-05T09:44:34 ICT" duration-ms="54" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_03_LoginFormDisplayed -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:selenium.wbdriver1.App@4f2b503c]" started-at="2022-01-05T09:44:34 ICT" name="afterClass" finished-at="2022-01-05T09:44:35 ICT" duration-ms="825" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- selenium.wbdriver1.App -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
