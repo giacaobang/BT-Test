@@ -166,4 +166,14 @@ public class App {
 	public void afterClass() {
 		driver.quit();
 	}
+	// Function sleep 2 second
+			public void sleepInSecond(long second) {
+				try {
+					Thread.sleep(second * 1000);
+				} catch (InterruptedException e) {
+					e.printStackTrace();
+				}
+				
+				
+			}
 }
