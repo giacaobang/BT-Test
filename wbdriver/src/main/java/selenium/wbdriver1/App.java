@@ -25,25 +25,25 @@ public class App {
 	
 	}
 
-	@Test
-	public void TC_01_ValidateCurrentUrl() {
-		// Login Page Url matching
-		String loginPageUrl = driver.getCurrentUrl();
-		Assert.assertEquals(loginPageUrl, "https://www.facebook.com/");
-	}
-
-	@Test
-	public void TC_02_ValidatePageTitle() {
-		// Login Page title
-		String loginPageTitle = driver.getTitle();
-		Assert.assertEquals(loginPageTitle, "Facebook - Đăng nhập hoặc đăng ký");
-	}
-
-	@Test
-	public void TC_03_LoginFormDisplayed() {
-		// Login form displayed
-		Assert.assertTrue(driver.findElement(By.xpath("//form[@data-testid='royal_login_form']")).isDisplayed());
-	}
+//	@Test
+//	public void TC_01_ValidateCurrentUrl() {
+//		// Login Page Url matching
+//		String loginPageUrl = driver.getCurrentUrl();
+//		Assert.assertEquals(loginPageUrl, "https://www.facebook.com/");
+//	}
+//
+//	@Test
+//	public void TC_02_ValidatePageTitle() {
+//		// Login Page title
+//		String loginPageTitle = driver.getTitle();
+//		Assert.assertEquals(loginPageTitle, "Facebook - Đăng nhập hoặc đăng ký");
+//	}
+//
+//	@Test
+//	public void TC_03_LoginFormDisplayed() {
+//		// Login form displayed
+//		Assert.assertTrue(driver.findElement(By.xpath("//form[@data-testid='royal_login_form']")).isDisplayed());
+//	}
 	
 	/*
 	 * @Test public void TC_04_Login() { // Login
@@ -166,7 +166,7 @@ public class App {
 	public void afterClass() {
 		driver.quit();
 	}
-	// Function sleep 2 second
+	// Function sleep 
 			public void sleepInSecond(long second) {
 				try {
 					Thread.sleep(second * 1000);
